@@ -1,12 +1,18 @@
 public class CommitCafe {
 
+<<<<<<< HEAD
     private static String barista = "Noah"; // STUDENT_TODO_1A: Change name
     // STUDENT_TODO_1B: Add a nickname or title for the barista
+=======
+    private static String barista = "CoffeeBot"; // STUDENT_TODO_1A: Change name
+    private static String title = "[Lead Barista]";
+>>>>>>> origin
 
-    private static int cups = 5;
+    private static int cups = 0;
 
     public static void brew(String drink) {
-        // STUDENT_TODO_2A: Implement - add 1 to cups & print a message
+        cups++;
+        System.out.println("CoffeeBot brewed " + drink + ". It's not a bug, it's a feature - until the coffee wears off.");
         // STUDENT_TODO_2B: Add a second brew-related improvement
     }
 
