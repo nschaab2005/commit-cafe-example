@@ -1,7 +1,12 @@
 public class CommitCafe {
 
+<<<<<<< HEAD
+    private static String barista = "Noah"; // STUDENT_TODO_1A: Change name
+    // STUDENT_TODO_1B: Add a nickname or title for the barista
+=======
     private static String barista = "CoffeeBot"; // STUDENT_TODO_1A: Change name
     private static String title = "[Lead Barista]";
+>>>>>>> origin
 
     private static int cups = 0;
 
@@ -12,7 +17,7 @@ public class CommitCafe {
     }
 
     public static void printSummary() {
-        System.out.println("[SUMMARY] " + barista + " brewed " + cups + " cups today.");
+        System.out.println("[SUMMARY] " + barista + " has brewed " + cups + " cups today.");
     }
 
     public static void main(String[] args) {
